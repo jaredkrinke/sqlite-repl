@@ -1,0 +1,25 @@
+{
+  "name": "sqlite-repl",
+  "version": "0.0.1",
+  "description": "Simple REPL for Sqlite",
+  "main": "sqlite-repl.js",
+  "dependencies": {
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredkrinke/sqlite-repl.git"
+  },
+  "keywords": [
+    "sqlite",
+    "repl",
+    "nodejs"
+  ],
+  "author": "Jared Krinke",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jaredkrinke/sqlite-repl/issues"
+  },
+  "homepage": "https://github.com/jaredkrinke/sqlite-repl#readme"
+}
