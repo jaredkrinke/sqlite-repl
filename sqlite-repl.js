@@ -1,6 +1,9 @@
 const sqlite3 = require("sqlite3");
 const repl = require("repl");
-const db = new sqlite3.Database(":memory:");
+
+const arguments = process.argv.slice(2);
+const dbFileName = (arguments.length >= 1 && arguments[0] !== "-") ? arguments[0] : ":memory:";
+const db = new sqlite3.Database(dbFileName);
 
 db.on("error", (err) => console.log(err));
 db.on("open", () => {
